@@ -8,12 +8,85 @@
 }
 .box{
     display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width:100vw;
+    background-color:blanchedalmond ;
+    align-items: center;
+}
+.header{
+    background-color:blanchedalmond ;
+    text-align: center;
+    font-size: 10vh;
+}
+.playerSelection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(88, 74, 88);
+    height: 10vh;
 
 }
 #board{
     display:flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+    height: 36vw;
+    width: 36vw;
+}
+form{
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 }
 #scoreBoard{
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 2.2vw;
+}
+.playerOneLabel{
+    background-color: rgb(116, 162, 163);
+    color: white;
+    margin-right: 2vw;
+    font-size: 3vw;
+    
+}
+.playerTwoLabel{
+    background-color: rgb(116, 162, 163);
+    color: white;
+    margin-right: 2vw;
+    text-justify: center;
+    font-size: 3vw;
+    margin-left: 10vh;
+    
+}
+input[type=text]{
+    background-color: rgb(43, 45, 49);
+    height: 10vh;
+    font-size: 5vh;
+    color:white;
+    width:10vw;
+}
+#startGame{
+    font-size:4vw;
+    color:white;
+    background-color: rgb(130, 156, 156);
+    margin-left: 5vw;
+    
+}
+#startGame:hover{
+    background-color: rgb(61, 73, 73)
+}
+.square{
+    height:12vw ;
+    width:12vw;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 10vh;
+    
 }
